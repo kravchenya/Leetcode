@@ -1,4 +1,5 @@
 ﻿using LeetCode.ArrayOrString.Easy;
+using LeetCode.Hashmap.Easy;
 using LeetCode.TwoPointers.Easy;
 
 namespace LeetCode
@@ -25,8 +26,11 @@ namespace LeetCode
             // var cP = new ValidPalindrome();
             // cP.CheckIfPalidrome();
 
-            var sS = new SubSequence();
-            sS.CheckIfSubstring();
+            // var sS = new SubSequence();
+            // sS.CheckIfSubstring();
+
+            var rN = new RansomeNote();
+            rN.CheckCanConstruct();
         }
     }
 }
