@@ -26,6 +26,7 @@ public class SearchInsertPosition
         Console.WriteLine("Result: " + SearchInsert(nums, target));
     }
 
+
     private int SearchInsert(int[] nums, int target) 
     {
         int min = 0;
